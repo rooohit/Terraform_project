@@ -1,1 +1,1 @@
-# Terraform_project
+# Terraform Code for Java Web App project
