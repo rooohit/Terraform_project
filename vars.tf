@@ -66,11 +66,15 @@ variable "rmq_pass" {
 }
 
 variable "db_user" {
-  default = "rohit"
+  default = "admin"
 }
 
 variable "db_pass" {
-  default = "list3n"
+  default = "admin123"
+}
+
+variable "dbname" {
+  default = "accounts"
 }
 
 variable "Public_key" {
