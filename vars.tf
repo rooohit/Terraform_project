@@ -16,6 +16,11 @@ variable "vpc_name" {
   default = "main_vpc"
 }
 
+variable "Instance_Count" {
+  default = "1"
+
+}
+
 variable "ZONE1" {
   default = "us-east-1a"
 }

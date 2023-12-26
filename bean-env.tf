@@ -2,7 +2,7 @@ resource "aws_elastic_beanstalk_environment" "main-bean-env" {
   name                = "main-bean-env"
   application         = aws_elastic_beanstalk_application.main-app.name
   solution_stack_name = "64bit Amazon Linux 2023 v5.1.2 running Tomcat 9 Corretto 11"
-  cname_prefix        = "main-bean-env-domain"
+  cname_prefix        = "main-bean-env-domain6969696"
   setting {
     name      = "VPCId"
     namespace = "aws:ec2:vpc"

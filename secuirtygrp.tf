@@ -76,6 +76,13 @@ resource "aws_security_group" "backend_services_sg" {
     protocol        = "-1"
     security_groups = [aws_security_group.beanstalk_instance_sg.id]
   }
+
+  ingress {
+    from_port = 3306
+    to_port = 3306
+    protocol = "tcp"
+    security_groups = [ aws_security_group.Bastion_host_sg.id ]
+  }
 }
 
 resource "aws_security_group_rule" "Secuirty_group_rule" {
