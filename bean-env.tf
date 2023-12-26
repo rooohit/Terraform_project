@@ -45,7 +45,7 @@ resource "aws_elastic_beanstalk_environment" "main-bean-env" {
   setting {
     namespace = "aws:autoscaling:asg"
     name      = "Availability Zones"
-    value     = "3"
+    value     = "Any 3"
   }
 
   setting {
